@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in JavaScript related to loose comparison. The function `foo` uses `==` to compare two values. This operator performs type coercion before comparison, leading to unexpected results in certain scenarios.  The solution demonstrates the use of strict equality (===) to avoid type coercion and ensure accurate comparisons.
